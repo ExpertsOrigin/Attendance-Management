@@ -1,0 +1,44 @@
+.teacherupdate{
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 27%;
+    padding-top: 20px;
+    padding-right: 22px;
+    margin: 5% auto;
+    line-height: 1.7;
+    background-color: orange;
+}
+
+.teacherupdate input{
+    margin: 12px;
+    background-color: orange;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    
+    border-color: lightgray ;
+    padding-left: 10px;
+}
+.teacherupdatebtn{
+    width: 25%;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+    margin: 10px 0px 23px 41%;
+    border-color: lightgray;
+    
+}
+::placeholder{
+    color: white;
+    background-color: none;
+
+}
+
+@media screen and (max-width: 426px) {
+    .teacherupdate{
+        border: 2px solid red;
+        width: 95%;
+    }
+
+   
+}

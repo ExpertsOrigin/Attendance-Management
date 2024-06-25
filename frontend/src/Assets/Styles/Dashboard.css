@@ -1,0 +1,51 @@
+.admin-board{
+    border: 2px solid red;
+    display: flex;
+}
+.board-sidebar{
+    border: 2px solid red;
+    width: 20%; 
+    padding-left: 3%;
+    padding-top:10%;
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+
+}
+
+.admin-dashboard{
+    border: 2px solid red;
+    width: 80%;
+}
+.admin-links{
+    /* list-style: none; */
+    /* text-decoration: none; */
+    color: black;
+}
+
+.side-links{
+    line-height: 3;
+    /* border: 2px solid red; */
+    padding-left: 12%;
+    padding-top: 15%;
+}
+
+.menuicon{
+    float: right;
+    font-size: 2.5rem;
+    margin-top: 2%;
+}
+.dash-links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+
+
+
+.dashboard1-div img{
+    width: 100%;
+    height: 90vh;
+
+}

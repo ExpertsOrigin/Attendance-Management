@@ -1,0 +1,42 @@
+.student-table{
+    width: 80%;
+    margin: 30px auto;
+    /* text-align: center; */
+}
+
+.stdID{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.updatedata{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: 25px;
+}
+
+.slogoutbtn{
+   background-color: orange; 
+   color: white;
+   border-radius: 10px;
+   float: right;
+   margin: 5px;
+}
+.wlstd{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:426px) {
+    .studenttable{
+        /* border: 2px solid red; */
+        width: 100%;
+        padding: 0px;
+
+    }
+    .student-table{
+        width: 99%;
+    }
+}

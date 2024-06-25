@@ -1,0 +1,131 @@
+.login-form{
+    border: 5px solid violet;
+    width: 30%;
+    /* margin: 6% auto; */
+    /* float: right; */
+    height: 85vh;
+    padding-top: 5%;
+    margin-top: 3%;
+    
+}
+.teacher-form{
+    border: 2px solid red;
+    padding-left: 20%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+
+.tbtn{
+    color: white;
+    background-color: orange;
+    margin: 10% auto;
+    display: block;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.log{
+    /* border: 2px solid red; */
+    display: flex;
+    /* margin-top: 3%; */
+}
+
+.loginimg{
+    width: 50%;
+    margin: 5% auto;
+    height: 50%;
+    border-radius: 10px;
+
+}
+.welcome-h2{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.form-input{
+    width: 80%;
+    line-height: 2;
+    /* margin-top: 5%; */
+    margin: 0px auto;
+    display: block;
+    
+}
+
+.form-btn{
+    width:20%;
+    border-radius: 5px;
+    background-color: orange;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.select-drop{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 6%;
+}
+
+
+.Slogoutbtn{
+    background-color: orange;
+    float: right;
+    color: white;
+    border-radius: 5px;
+    width: 6%;
+    margin-top: 1%;
+}
+
+.Tlogoutbtn{
+    background-color: orange;
+    float: right;
+    color: white;
+    border-radius: 5px;
+    width: 6%;
+    margin-top: 1%;
+}
+
+.Alogoutbtn{
+    background-color: orange;
+    /* height: 20px; */
+    width: 20% !important;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+    
+}
+
+@media screen and (max-width: 426px) {
+    .loginimg{
+        display: none;
+    }
+    .log{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .login-form{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+}
+
+
+.updatepassword{
+    border: 2px solid red;
+    width: 22%;
+    line-height: 2;
+    margin: 10% auto;
+
+}
+.updatepassword input{
+    width: 94%;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+
+

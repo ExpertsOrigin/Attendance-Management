@@ -1,0 +1,253 @@
+.teacherform{
+    border: 2px solid red;
+    width: 47%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin:30px auto;
+    justify-content: space-between;
+    /* line-height: 2; */
+
+}
+.admin-main-form{
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 1%;
+    padding: 20px;
+
+    
+}
+
+.teacher-table{
+    /* border: 2px solid red; */
+    width: 45%;
+    margin: 0px auto;
+}
+
+
+
+.tabletd{
+    width: 6%;
+    text-align: center;
+}
+
+.delbtn{
+    background-color: orange;
+    margin: 3px;
+    border-radius: 5px;
+}
+.action{
+    width: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+.teacherh1{
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+}
+
+.teacherdata4{
+    /* border: 2px solid red; */
+    margin-top: 4%;
+    width: 45%;
+}
+.formdata{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.studentform{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;    
+    width: 40%;
+    margin: 30px auto;
+    justify-content:space-between ;
+    padding-left: 50px;
+}
+
+.update-form{
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3% auto;
+    padding: 10px;
+
+}
+.updatebutton{
+    display: block;
+  width: 20%;
+  margin: 5% auto;
+
+}
+
+.tchraction{
+    width: 6.8%;
+}
+
+.studentdata4{
+    /* border: 2px solid red; */
+    margin-top: 4%;
+    width: 50%;
+
+
+}
+
+.welcomeadmin{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.studentdata4 input{
+    width: 80%;
+    height: 5vh;
+    opacity: 0.4;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.studentdata5{
+    /* border: 2px solid red; */
+    margin-top: 4%;
+    width: 100%;
+
+}
+
+
+
+.ulink{
+    text-decoration: none;
+    color: black;
+}
+.studentdata5 input{
+    /* border: 2px solid red; */
+    /* margin-top: 4%; */
+    width: 90%;
+        height: 5vh;
+        
+
+}
+.formbtn{
+    width: 20%;
+    height: 35px;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+
+
+.teacherdata4 input{
+    width: 100%;
+    height: 5vh;
+}
+
+
+.teacherform label{
+    margin-bottom: 5px;
+}
+
+.studentform label{
+    margin-bottom: 8px;
+}
+
+
+.showdata{
+    /* border:2px solid red; */
+    display: flex;
+}
+
+.showtdata{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.showsdata{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.addbtns{
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.addbtns button{
+    color:white;
+    padding: 8px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:426px) {
+    .studentform{
+        border: 2px solid red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .studentdata5{
+        /* border: 2px solid red; */
+        width: 45%;
+    }
+    .studentdata5 input{
+        width: 100%;
+    }
+
+    .teacherform{
+        border: 2px solid red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .admin-main-form{
+        border: 2px solid red;
+        width: 100%;
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .teacher-table{
+        border: 2px solid red;
+        width: 100%;
+        /* padding: 10px; */
+        /* margin: 0px auto; */
+    }
+
+
+}
+
+tr:hover {background-color: lightyellow;}
+
+
